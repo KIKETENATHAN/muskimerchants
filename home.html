@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <title>BOSIO ARISE AND SHINE ACADEMY</title>
+    <link rel="stylesheet" href="style1.css" />
+</head>
+<body>
+    <div class="homepage">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="logo" width="70" height="70">
+            </div>
+            <div class="nav-links">
+                <a href="full-article.html">About School</a>
+                <a href="ourteam.html">Our Staff</a>
+                <a href="profie.html">Top Management</a>
+                <a href="contactus.html">Contact Us</a>
+    
+            </div>
+        </nav>
+    </nav> 
+    <h1>BOSIO ARISE AND SHINE ACADEMY</h1>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 of 6</div>
+          <img src="images/logo.jpg" style="width:90%">
+          <div class="text">Our Logo.</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">2 of 6</div>
+          <img src="images/pupil 1.jpg" style="width:100%">
+          <div class="text">Cultural Day.</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext">3 of 6</div>
+          <img src="images/pupil 3.jpg" style="width:100%">
+          <div class="text">Clubs and Societies.</div>
+        </div>
+          <div class="mySlides fade">
+          <div class="numbertext">4 of 6</div>
+          <img src="images/pupil 6.jpg" style="width:100%">
+          <div class="text">School Trips and Tours.</div>
+          </div>
+        <div class="mySlides fade">
+          <div class="numbertext">5 of 6</div>
+          <img src="images/pupil 4.jpg" style="width:100%">
+          <div class="text">Our New School Van.</div>
+          </div>
+          <div class="mySlides fade">
+          <div class="numbertext">6 of 6</div>
+          <img src="images/pupil 5.jpg" style="width:100%">
+          <div class="text">Guidance and Counselling.</div>
+          </div>
+        </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+          <span class="dot"></span> 
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+        </div>
+        <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+        </script>
+
+    <div class="card-groups">
+        <div class="card-group">
+            <div class="card">
+                <div class="container">
+                    <h2><b>Mission</b></h2>
+<p>To give quality service to nurture every 
+    learner's potential and God given abilities</p>
+    <img src="images/mission.png" alt="Mission" style="width:70%">
+            </div>
+         </div>
+            <div class="card">  
+                <div class="container">
+                    <h2><b>Vision</b></h2>
+                    <p>To instill good moral values and 
+                        Education in learners, in relation with the morden society.</p>
+     <img src="images/vision.png" alt="Vision" style="width:120%">
+                </div>
+            </div>
+            <div class="card">  
+                <div class="container">
+                    <h2><b>Motto</b></h2>
+                    <p> The Harvest is in the Seed.</p>
+       <img src="images/pupil 7.jpg" alt="Motto" style="width:100%">
+                </div>
+            </div> 
+<div class="card">  
+   <div class="container">
+    <h2><b>Enrollment</b></h2>
+        <p> 2023 total pupils enrollment is about 294 from Pre-Primary, and primary.
+          Pre-primary _ 104 Pupils<br>
+          Primary _ 190 Pupils<br>
+        </p>
+       <img src="images/pupil 2.jpg" alt="Enrollment" style="width:100%">
+                </div>
+            </div> 
+  </div>
+</div>
+<p>
+   A premier private boarding and day primary 
+        school, located in Bungoma
+        county, Bumula Sub-County and Siboti ward <br>
+        Its located along Mayanja - Malakisi road, 
+        with only 50 meters from Bosio Market.
+</p>
+<div></div>
+
+</body>
+</html>
