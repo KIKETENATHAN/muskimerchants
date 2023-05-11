@@ -181,4 +181,8 @@ img {vertical-align: stretch;}
 }  
 footer{
   text-align: center;
+text-emphasis-color: navy;
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
