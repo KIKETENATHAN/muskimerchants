@@ -177,7 +177,7 @@ img {vertical-align: stretch;}
     float: left;
     padding: 20px;
     border: 1px solid navy;
-    background-color: antiquewhite;
+    background-color: rgb(169, 169, 247);
 }  
 footer{
   text-align: center;
