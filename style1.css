@@ -167,5 +167,16 @@ img {vertical-align: stretch;}
     font-style: italic;
     background-color: rgb(245, 199, 109);
     flex-direction: column;
-  
   }
+  .float-container {
+    
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 5px solid navy;
+    background-color: antiquewhite;
+}  
