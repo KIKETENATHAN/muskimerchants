@@ -103,22 +103,18 @@ img {vertical-align: stretch;}
   transition: background-color 0.5s ease;
   cursor: pointer;
 }
-
 .active {
   background-color: navy;
 }
-
 /* Fading animation */
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
 }
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
@@ -159,6 +155,10 @@ img {vertical-align: stretch;}
   }
   h1{
     text-align: center;
+    margin-top: 80px;
+  }
+  h3{
+  color: blueviolet;
   }
   p{
     text-align: center;
