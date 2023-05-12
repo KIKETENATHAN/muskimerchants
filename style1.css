@@ -194,8 +194,11 @@ footer{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #2a0edd; /* Adjust the text color as needed */
+  color:black; /* Adjust the text color as needed */
   padding: 10px;
   text-align: center;
-  font-size: x-large;
+  font-size: 70px;
+  display: none;
+  background-color:whitesmoke;
+  opacity: 0.5;
 }
