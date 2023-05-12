@@ -189,4 +189,13 @@ footer{
   font-size: medium;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #2a0edd; /* Adjust the text color as needed */
+  padding: 10px;
+  text-align: center;
+  font-size: x-large;
+}
