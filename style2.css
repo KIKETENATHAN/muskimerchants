@@ -56,7 +56,21 @@
     flex-basis: 50%;
     text-align: center;
   }
-
+  .flex-container {
+    display: flex;
+    padding-top: 7%;
+  }
+  
+  .flex-item {
+    flex: 1;
+    background-color: beige;
+    padding: 10px;
+    margin-right: 10px; /* optional margin between columns */
+  }
+  
+  .flex-item:last-child {
+    margin-right: 0; /* remove margin from the last column */
+  }
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
