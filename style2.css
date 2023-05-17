@@ -59,11 +59,13 @@
   .flex-container {
     display: flex;
     padding-top: 7%;
+    box-shadow: 0 12px 8px 0 #03337a;
+    overflow: hidden;
+    background-color:whitesmoke; 
   }
-  
   .flex-item {
     flex: 1;
-    background-color: beige;
+    background-color: white;
     padding: 10px;
     margin-right: 10px; /* optional margin between columns */
   }
