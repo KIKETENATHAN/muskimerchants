@@ -17,3 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
       caption.style.display = "none";
     }
   });
+  function blinkImage() {
+    var image = document.getElementById('myImage');
+    image.classList.toggle('blink');
+  }
+
+  setInterval(blinkImage, 500); // Toggle visibility every 500 milliseconds
