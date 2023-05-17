@@ -206,4 +206,6 @@ footer{
 .blink {
   visibility: hidden;
 }
-
+.center{
+  text-align: center;
+}
