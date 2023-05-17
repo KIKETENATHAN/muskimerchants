@@ -22,4 +22,4 @@ document.addEventListener("DOMContentLoaded", function() {
     image.classList.toggle('blink');
   }
 
-  setInterval(blinkImage, 500); // Toggle visibility every 500 milliseconds
+  setInterval(blinkImage, 1000); // Toggle visibility every 500 milliseconds
