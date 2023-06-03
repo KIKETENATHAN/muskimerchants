@@ -56,23 +56,6 @@
     flex-basis: 50%;
     text-align: center;
   }
-  .flex-container {
-    display: flex;
-    padding-top: 7%;
-    box-shadow: 0 12px 8px 0 #03337a;
-    overflow: hidden;
-    background-color:whitesmoke; 
-  }
-  .flex-item {
-    flex: 1;
-    background-color: white;
-    padding: 10px;
-    margin-right: 10px; /* optional margin between columns */
-  }
-  
-  .flex-item:last-child {
-    margin-right: 0; /* remove margin from the last column */
-  }
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -142,6 +125,7 @@ img {vertical-align: stretch;}
     justify-content: center;
     text-align: center;
     margin-top: 100px;
+    width: 100%;
   }
   
   .card-group {
