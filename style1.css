@@ -1,7 +1,7 @@
 
   .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 5px;
     background: #0a62d0;
@@ -10,6 +10,10 @@
     left: 0;
     width: 100%;
     z-index:9999;
+  }
+  .nav-item {
+    display: inline-block;
+    margin-left: 10px;
   }
   
   .nav-links {
@@ -57,7 +61,24 @@
     flex-basis: 50%;
     text-align: center;
   }
+/* Styles for small devices */
+@media (max-width: 480px) {
+  .nav-item {
+    display: none;
+  }
 
+  .navbar.show-dots .nav-item {
+    display: inline-block;
+    margin: 0 2px;
+  }
+
+  .navbar.show-dots .nav-item:before {
+    content: "•";
+    font-size: 24px;
+    color: #000;
+  }
+}
+/*styles for smaller devices*/
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}

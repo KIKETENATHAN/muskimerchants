@@ -23,3 +23,15 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   setInterval(blinkImage, 1000); // Toggle visibility every 500 milliseconds
+
+  // Toggle the visibility of navigation items on small devices
+function toggleNavDots() {
+  var navbar = document.querySelector('.navbar');
+  navbar.classList.toggle('show-dots');
+}
+
+// Call the toggleNavDots function when the window is resized
+window.addEventListener('resize', toggleNavDots);
+
+// Call the toggleNavDots function initially
+toggleNavDots();
