@@ -1,10 +1,15 @@
 
-  .navbar {
+.homepage {
+  background: linear-gradient(30deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
+  overflow: hidden;
+  width:100%
+}
+ .navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 5px;
-    background: #0a62d0;
+    background: #f3d849;
     position: fixed;
     top: 0;
     left: 0;
@@ -212,8 +217,8 @@ img {vertical-align: stretch;}
 }  
 footer{
   text-align: center;
-  color: white;
-  background-color: #0a62d0;
+  color:black;
+  background: linear-gradient(30deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
   font-size: medium;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
