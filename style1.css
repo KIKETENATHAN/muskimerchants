@@ -1,6 +1,6 @@
 
 .homepage {
-  background: linear-gradient(30deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
+  background: linear-gradient(30deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, white);
   overflow: hidden;
   width:100%
 }
@@ -190,7 +190,7 @@ img {vertical-align: stretch;}
     margin-top: 90px;
   }
   h3{
-  color:brown;
+  color:black;
   }
   p{
     text-align: center;
