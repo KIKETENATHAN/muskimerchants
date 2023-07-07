@@ -195,32 +195,20 @@ img {vertical-align: stretch;}
   p{
     text-align: center;
   }
-  aside {
-    width: 30%;
-    border-radius: 5%;
-    margin-left: 10px;
-    float: right;
-    font-style: italic;
-    background-color: rgb(245, 199, 109);
-    flex-direction: column;
-  }
-  .float-container {
-    padding: 20px;
+
+.container2 {
+  display: flex;
+  align-items: center;
+ 
+  margin: 10px;
+  width: 100%;
 }
 
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 0px solid navy;
-    background-color: beige;
-}  
-footer{
-  text-align: center;
-  color:black;
-  background: linear-gradient(170deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
-  font-size: medium;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.container2 p {
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.5;
+  order: 1;
 }
 .caption {
   position: absolute;
@@ -242,3 +230,11 @@ footer{
 a:hover{
   color: blue;
 }
+footer{
+  text-align: center;
+  color:black;
+  background: linear-gradient(170deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
+  font-size: medium;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
