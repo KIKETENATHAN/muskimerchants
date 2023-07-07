@@ -218,7 +218,7 @@ img {vertical-align: stretch;}
 footer{
   text-align: center;
   color:black;
-  background: linear-gradient(30deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
+  background: linear-gradient(170deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
   font-size: medium;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
