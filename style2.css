@@ -4,7 +4,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 5px;
-    background: orange;
+    background: #a15c38;
     position: fixed;
     top: 0;
     left: 0;
@@ -189,7 +189,8 @@ a:hover{
 }
 footer{
   text-align: center;
-  background-color: #e1ba0b;
+  background-color: #a15c38;
+  color: white;
   font-size: medium;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
