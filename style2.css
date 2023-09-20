@@ -130,6 +130,7 @@ img {vertical-align: stretch;}
   
   .card-group {
     display: flex;
+    flex-wrap: wrap;
     margin: 0 20px;
   }
   
