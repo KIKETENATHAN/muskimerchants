@@ -1,21 +1,40 @@
 
 .homepage {
-  background: linear-gradient(30deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, white);
+  background: linear-gradient(90deg,#f7f1f0,#c3a6a0 50%,#f7f0f0 50%, #c3a6a0);
   overflow: hidden;
   width:100%
+  
 }
  .navbar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 5px;
-    background: #f3d849;
+    background: #a15c38;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index:9999;
   }
+  /*start of trying nav bar*/
+  .checkbtn{
+    float: right;
+    cursor:pointer;
+    display: none:
+  }
+  #check{
+    display:none;
+  }
+  @media(max-width: 952px){
+    nav ul li a { font size:16px;}
+  }
+  @media(max-width: 858px){
+    checkbtn{
+      display:block;
+    }
+  }
+  /*trying hiding ul in nav bar end*/
   .nav-item {
     display: inline-block;
     margin-left: 10px;
@@ -49,7 +68,7 @@
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color:navy;
+    background-color:white;
     visibility: hidden;
     transform: scaleX(1);
     transition: all 0.1s ease-in-out 0s;
@@ -67,7 +86,7 @@
     text-align: center;
   }
 /* Styles for small devices */
-@media (max-width: 480px) {
+@media (max-width: 952px) {
   .nav-item {
     display: none;
   }
@@ -80,7 +99,7 @@
   .navbar.show-dots .nav-item:before {
     content: "•";
     font-size: 24px;
-    color: #000;
+    color: white;
   }
 }
 /*styles for smaller devices*/
@@ -91,7 +110,7 @@ img {vertical-align: stretch;}
 
 /* Slideshow container */
 .slideshow-container {
-  width: 50%;
+  width: 80%;
   position: relative;
   margin: auto;
   padding-top: 0%;
@@ -112,7 +131,7 @@ img {vertical-align: stretch;}
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: orange;
+  color: #262220;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
@@ -124,7 +143,7 @@ img {vertical-align: stretch;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #f3d849;
+  background-color: #a15c38;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.5s ease;
@@ -146,6 +165,66 @@ img {vertical-align: stretch;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+/*flip card*/
+         /* Style for the flip card container */
+         .flip-card-container {
+          display: inline-block; /* Display flip cards inline */
+          margin: 20px; /* Add some spacing between flip cards */
+      }
+
+      /* Style for the flip card */
+      .flip-card {
+          background-color: transparent;
+          width: 200px;
+          height: 260px;
+          perspective: 1000px; /* Add perspective for 3D effect */
+          align-items: center;
+      }
+
+      /* Style for the card when it's not flipped */
+      .flip-card-inner {
+          width: 100%;
+          height: 100%;
+          transform-style: preserve-3d; /* Maintain 3D space */
+          transition: transform 0.5s; /* Add transition for flipping */
+      }
+
+      /* Style for the front side of the card */
+      .flip-card-front, .flip-card-back {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          backface-visibility: hidden; /* Hide the back side */
+      }
+
+      /* Style for the front side (visible by default) */
+      .flip-card-front {
+          background-color: #c3a6a0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      /* Style for the back side (hidden by default) */
+      .flip-card-back {
+          background-color: #2980b9;
+          transform: rotateY(180deg); /* Rotate to hide by default */
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+
+      /* Style for the content on both sides */
+      .flip-card-content {
+          padding: 20px;
+          color: white;
+      }
+
+      /* Add hover effect to flip the card */
+      .flip-card:hover .flip-card-inner {
+          transform: rotateY(180deg); /* Flip when hovered */
+      }
+    /*end of flip card*/
   .card-groups {
     display: flex;
     flex-wrap: wrap;
@@ -227,12 +306,12 @@ img {vertical-align: stretch;}
 }
 
 a:hover{
-  color: blue;
+  color: white;
 }
 footer{
   text-align: center;
   color:black;
-  background: linear-gradient(170deg,#e0e5e9, #f3d849,#e59560 50%,#e0e5e9 50%, #0a62d0, yellowgreen);
+  background-color: #a15c38;
   font-size: medium;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
