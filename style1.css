@@ -335,3 +335,22 @@ footer{
 .review .content {
   margin-top: 5px;
 }
+.contact-card {
+  width: 360px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: top;
+justify-content: center;
+
+}
+
+.contact-name {
+  font-weight: bold;
+}
+
+.contact-email {
+  color: #007BFF;
+}
